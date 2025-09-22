@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bubble-game"
+version = "0.1.0"
+description = ""
+authors = ["Kirienko-Alyona <ladybird.miami@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
